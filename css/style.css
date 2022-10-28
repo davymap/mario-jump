@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+.refresh {
+    position: absolute;
+    z-index: 1;
+    width: 5rem;
+    right: 0;
+    margin: 10px;
+
+    display: none;
+}
+
+.refresh:hover {
+    opacity: 80%;
+}
+
 .game-board {
  width: 100%;
  height: 500px;
